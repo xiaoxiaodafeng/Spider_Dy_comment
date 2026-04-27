@@ -41,7 +41,6 @@ node .\douyin_crawler_server.js 7626423682646326117 --limit=500 --reply-limit=50
 - `douyin_crawler_server.js`：主入口，平时只运行这个文件。
 - `cookie.example.txt`：cookie 示例文件，真实 `cookie.txt` 需要自己创建。
 - `api.txt`：项目自带的接口模板文件。
-- `api.example.txt`：接口模板示例文件。
 - `bdm_sign_vm.js`：本地签名脚本，主要用于一级评论接口签名。
 - `bdm_live.js`、`bdm.js`：签名依赖文件，`bdm.js` 是备用。
 - `outputs/`：抓取结果 JSON，默认不会上传。
