@@ -1,4 +1,4 @@
-# 抖音评论抓取工具
+# 抖音评论爬虫
 
 本项目是一个本地 Node.js 评论抓取脚本。给一个视频 ID，可以抓取一级评论和二级评论，并输出成嵌套 JSON。
 
@@ -10,7 +10,6 @@
 Copy-Item .\cookie.example.txt .\cookie.txt
 ```
 
-`api.txt` 会随项目一起提供。
 
 ## 快速使用
 
